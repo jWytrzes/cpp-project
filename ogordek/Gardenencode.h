@@ -2,13 +2,12 @@
 #include <vector>
 #include "Plantation.h"
 
-
 class GardenEncode
 {
 public:
-	std::vector<Plantation> plantations;
 	GardenEncode();
 	~GardenEncode();
+	std::vector<Plantation> plantations;
 	void encode();
 
 private:

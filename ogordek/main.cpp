@@ -1,29 +1,38 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <stdlib.h>
+#include <stdio.h>
 #include "Gardenencode.h"
-
-using namespace std;
+#include "GardenDecode.h"
 
 int main()
 {
 	char choice;
-	cout << "Wybierz operacje: " << endl;
-	cout << "e - enkoduj z pliku data.txt" << endl;
-	cout << "d - dekoduj z pliku data2.txt" << endl;
+	while (1) {
+		std::cout << "Wybierz operacje: " << std::endl;
+		std::cout << "e - enkoduj z pliku data.txt" << std::endl;
+		std::cout << "d - dekoduj z pliku data2.txt" << std::endl;
+		std::cout << "x - wyjscie" << std::endl;
 
-	cin >> choice;
+		std::cin >> choice;
 
-	GardenEncode gardenEncode;
+		GardenEncode gardenEncode;
+		GardenDecode gardenDecode;
 
-	switch (choice) {
-	case 'e':
-		gardenEncode.encode();
-		break;
-	case 'd':
-		cout << "Operacja niedostepna" << endl;
-		break;
+		switch (choice) {
+		case 'e':
+			gardenEncode.encode();
+			break;
+		case 'd':
+			gardenDecode.decode();
+			break;
+		case 'x':
+			exit(0);
+			break;
+		default:
+			std::cout << "Operacja niedostepna" << std::endl;
+		}
 	}
-
 	system("pause");
 }	

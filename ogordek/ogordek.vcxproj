@@ -116,13 +116,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Code.cpp" />
     <ClCompile Include="GardenDecode.cpp" />
     <ClCompile Include="GardenEncode.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Plantation.cpp" />
-    <ClCompile Include="Tile.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Code.h" />
     <ClInclude Include="GardenDecode.h" />
     <ClInclude Include="Gardenencode.h" />
     <ClInclude Include="Plantation.h" />

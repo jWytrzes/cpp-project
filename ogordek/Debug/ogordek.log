@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  GardenDecode.cpp
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(19): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(21): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(53): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(69): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
   ogordek.vcxproj -> C:\Users\joann\OneDrive\Documents\Projekty\studia\cpp\ogrodek\Debug\ogrodek.exe

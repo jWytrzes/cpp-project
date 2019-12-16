@@ -1,9 +1,5 @@
 #pragma once
-class Tile
-{
-public:
-	Tile(int value);
-	~Tile();
-	bool isPlant;
+enum Tile {
+	Plant = 1,
+	Blank = 0,
 };
-
