@@ -125,7 +125,7 @@
   <ItemGroup>
     <ClInclude Include="Code.h" />
     <ClInclude Include="GardenDecode.h" />
-    <ClInclude Include="Gardenencode.h" />
+    <ClInclude Include="GardenEncode.h" />
     <ClInclude Include="Plantation.h" />
     <ClInclude Include="Tile.h" />
   </ItemGroup>

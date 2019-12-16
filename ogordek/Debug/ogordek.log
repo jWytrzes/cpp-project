@@ -1,6 +1,19 @@
-﻿  GardenDecode.cpp
+﻿  Plantation.cpp
+  main.cpp
+  GardenEncode.cpp
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardenencode.cpp(22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardenencode.cpp(24): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardenencode.cpp(48): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardenencode.cpp(56): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardenencode.cpp(78): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  GardenDecode.cpp
 c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(19): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
 c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(21): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
 c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(53): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
 c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\gardendecode.cpp(69): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Code.cpp
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\code.cpp(9): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\code.cpp(44): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\joann\onedrive\documents\projekty\studia\cpp\ogrodek\ogordek\code.cpp(46): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Generowanie kodu...
   ogordek.vcxproj -> C:\Users\joann\OneDrive\Documents\Projekty\studia\cpp\ogrodek\Debug\ogrodek.exe

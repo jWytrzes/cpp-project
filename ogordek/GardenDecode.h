@@ -2,8 +2,7 @@
 #include <vector>
 #include "Code.h"
 
-class GardenDecode
-{
+class GardenDecode {
 public:
 	GardenDecode();
 	~GardenDecode();

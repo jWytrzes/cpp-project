@@ -2,8 +2,7 @@
 #include <vector>
 #include "Plantation.h"
 
-class GardenEncode
-{
+class GardenEncode {
 public:
 	GardenEncode();
 	~GardenEncode();
@@ -14,4 +13,3 @@ private:
 	void loadData();
 	void saveResult();
 };
-

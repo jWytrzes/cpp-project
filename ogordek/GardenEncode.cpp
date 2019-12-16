@@ -9,8 +9,8 @@
 
 #define STD_OUTPUT_HANDLE ((DWORD)-11)
 
-GardenEncode::GardenEncode(){}
-GardenEncode::~GardenEncode(){}
+GardenEncode::GardenEncode() {}
+GardenEncode::~GardenEncode() {}
 
 void GardenEncode::encode() {
 	loadData();
@@ -19,8 +19,7 @@ void GardenEncode::encode() {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, 13);
 
-	for (int i = 0; i < plantations.size(); i++)
-	{
+	for (int i = 0; i < plantations.size(); i++) {
 		int boardSize = pow(2, plantations[i].n);
 		plantations[i].checkField(0, 0, boardSize);
 
@@ -41,10 +40,11 @@ void GardenEncode::loadData() {
 		std::string line;
 		while (getline(dataFile, line)) {
 			if (line.length() == 1) {
-				if(plantation.n > 0)
+				if (plantation.n > 0) {
 					plantations.push_back(plantation);
+				}
 
-				plantation.n = stoi(line);				
+				plantation.n = stoi(line);
 				for (int i = 0; i < plantation.board.size(); i++) {
 					plantation.board[i].clear();
 				}
@@ -54,10 +54,12 @@ void GardenEncode::loadData() {
 			else {
 				std::vector<Tile> row;
 				for (int i = 0; i < line.length(); i++) {
-					if (line[i] == '\0') break;
+					if (line[i] == '\0') {
+						break;
+					}
 
 					char c = line[i];
-					Tile tile = c - '0' ? Plant : Blank;
+					Tile tile = c - '0' ? Tile::Plant : Tile::Blank;
 					row.push_back(tile);
 				}
 				plantation.board.push_back(row);
@@ -66,6 +68,7 @@ void GardenEncode::loadData() {
 		plantations.push_back(plantation);
 		dataFile.close();
 	}
+
 	else {
 		std::cout << "Unable to open file" << std::endl;
 	}
@@ -74,9 +77,8 @@ void GardenEncode::loadData() {
 void GardenEncode::saveResult() {
 	std::ofstream file;
 	file.open("result.txt");
-	
-	for (int i = 0; i < plantations.size(); i++)
-	{
+
+	for (int i = 0; i < plantations.size(); i++) {
 		file << plantations[i].n << " " << plantations[i].result << std::endl;
 	}
 

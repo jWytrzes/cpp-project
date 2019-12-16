@@ -1,0 +1,12 @@
+﻿  Code.cpp
+Code.cpp(9): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+Code.cpp(44): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+Code.cpp(46): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  GardenDecode.cpp
+GardenDecode.cpp(19): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+GardenDecode.cpp(21): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+GardenDecode.cpp(53): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+GardenDecode.cpp(69): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  main.cpp
+main.cpp(2): fatal error C1083: Nie można otworzyć pliku dołącz: 'GardenEncode.h': No such file or directory
+  Plantation.cpp

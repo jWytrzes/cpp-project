@@ -3,8 +3,7 @@
 #include <vector>
 #include "Plantation.h"
 
-class Code
-{
+class Code {
 public:
 	Code();
 	~Code();

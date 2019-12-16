@@ -6,8 +6,8 @@
 
 #define STD_OUTPUT_HANDLE ((DWORD)-11)
 
-GardenDecode::GardenDecode(){}
-GardenDecode::~GardenDecode(){}
+GardenDecode::GardenDecode() {}
+GardenDecode::~GardenDecode() {}
 
 void GardenDecode::decode() {
 	loadData();
@@ -16,8 +16,7 @@ void GardenDecode::decode() {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, 13);
 
-	for (int i = 0; i < codes.size(); i++)
-	{
+	for (int i = 0; i < codes.size(); i++) {
 		int boardSize = pow(2, codes[i].n);
 		codes[i].createBoard();
 		codes[i].countPlants();
@@ -66,8 +65,7 @@ void GardenDecode::saveResult() {
 	std::ofstream file;
 	file.open("result2.txt");
 
-	for (int i = 0; i < codes.size(); i++)
-	{
+	for (int i = 0; i < codes.size(); i++) {
 		file << codes[i].result << std::endl;
 	}
 

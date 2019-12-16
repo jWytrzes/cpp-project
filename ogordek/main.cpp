@@ -1,13 +1,8 @@
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <stdlib.h>
-#include <stdio.h>
-#include "Gardenencode.h"
+#include "GardenEncode.h"
 #include "GardenDecode.h"
 
-int main()
-{
+int main() {
 	char choice;
 	while (1) {
 		std::cout << "Wybierz operacje: " << std::endl;
